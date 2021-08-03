@@ -37,5 +37,5 @@ app.use('/api/product',ProductRoute)
 
 const port=process.env.port||3200;
 
-app.listen(port,()=>{console.log('::server started::')})
+app.listen(port,()=>{console.log(':::server started::')})
 
