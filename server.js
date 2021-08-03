@@ -30,10 +30,10 @@ db.on('open',()=>{
 app.use('/api/users',UserRoute)
 app.use('/api/product',ProductRoute)
 
-// app.get('/',async(req,res)=>{
-//     res.send("hello ")
-//     console.log("hello con")
-// })
+app.get('/',async(req,res)=>{
+    res.send("hello ")
+    console.log("hello con")
+})
 
 const port=process.env.port||3200;
 
